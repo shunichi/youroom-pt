@@ -26,8 +26,6 @@ function handleStateChange() {
 function createPivotalStory(name, description) {
   var projectId = localStorage['projectId'];
   var apiToken = localStorage['apiToken'];
-  console.log("pid: " + projectId + ", at: " + apiToken);
-
   var xhr = new XMLHttpRequest();
   xhr.onreadystatechange = handleStateChange;
   xhr.open("POST", "https://www.pivotaltracker.com/services/v5/projects/" + projectId + "/stories", true);
