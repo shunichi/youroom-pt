@@ -18,7 +18,6 @@
   "options_page": "options.html",
   "permissions": [
     "contextMenus",
-    "activeTab",
     "clipboardRead",
     "https://www.pivotaltracker.com/"
   ]
