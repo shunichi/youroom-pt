@@ -2,7 +2,7 @@
 
 ## Set up
 - `git clone https://github.com/shunichi/youroom-pt`
-- [開発モードで拡張ロードする](https://developer.chrome.com/extensions/getstarted#unpacked)
+- [開発モードで拡張をロードする](https://developer.chrome.com/extensions/getstarted#unpacked)
 - Pivotal Tracker の *Project Id* と *API Token* を拡張のオプションで設定する
 
 ## Usage
