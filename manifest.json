@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+
+  "name": "Yooroom To Pivotal",
+  "description": "Youroom To Pivotal Tracker Story.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "if_Notes_132689.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [{
+    "matches": ["https://www.youroom.in/*"],
+    "js": ["content.js"]
+  }],
+  "options_page": "options.html",
+  "permissions": [
+    "contextMenus",
+    "activeTab",
+    "clipboardRead",
+    "https://www.pivotaltracker.com/"
+  ]
+}
